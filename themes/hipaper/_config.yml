@@ -4,11 +4,11 @@
 
 # Header Menu
 menu:
-  Home: /
-  Archives: archives
-  Categories: categories
-  Tags: tags
-  About: about
+  主页: /
+  学校概况: archives
+  公司简介: intro
+  规划展望: overview
+  招生招聘: about
 rss: /atom.xml
 
 
@@ -56,12 +56,9 @@ widgets:
 # Key is the name of FontAwsome icon.
 # Value is the target link (E.g. GitHub: https://github.com/iTimeTraveler)
 social:
-  Github: https://github.com/iTimeTraveler
+  Github: https://github.com/jiayuann
   Weibo: 
-  Twitter: 
-  Facebook: 
-  Google-plus: 
-  Instagram: 
+  Weixin: 
 
 
 # Search
