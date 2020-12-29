@@ -5,10 +5,11 @@
 # Header Menu
 menu:
   主页: /
-  学校概况: archives
-  公司简介: intro
+  学校概况: aboutus
+  办学思路: intro
   规划展望: overview
-  招生招聘: about
+  成功案例: cases
+  招生招聘: admission
 rss: /atom.xml
 
 
