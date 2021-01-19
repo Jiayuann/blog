@@ -17,7 +17,7 @@ rss: /atom.xml
 keywords: ""
 
 # Put your favicon.ico into `hexo-site/themes/hipaper/source/` directory.
-favicon: css/images/favicon.ico
+favicon: css/images/logo.png
 
 
 # Put your avatar.jpg into `hexo-site/themes/hipaper/source/` directory.
@@ -27,7 +27,7 @@ avatar:
   width: 124
   height: 124
   bottom: 10
-  url: https://hexo.io/logo.svg
+  url: css/images/logo.png
 
 
 # AboutPage background, support multiple images.
@@ -49,8 +49,8 @@ widgets:
 - social
 - recent_posts
 - category
-- tag
-- tagcloud
+# - tag
+# - tagcloud
 - archive
 
 # Social Links

@@ -29,6 +29,7 @@
       <div class="site-branding">
 
           <h1 class="site-title">
+            <img style="margin-bottom: <%= theme.avatar.bottom/5 %>px;"  width="<%= theme.avatar.width/2 %>px" height="<%= theme.avatar.height/2 %>px" alt="" src="<% if (!(theme.avatar.url.startsWith('http') || theme.avatar.url.indexOf('://') >= 0)){ %> <%-config.root %><% } %><%- theme.avatar.url %>">
             <% if (theme.avatar.enable){ %>
               <a href="<%= config.root %>" rel="home" >
                 <img style="margin-bottom: <%= theme.avatar.bottom %>px;"  width="<%= theme.avatar.width %>px" height="<%= theme.avatar.height %>px" alt="Hike News" src="<% if (!(theme.avatar.url.startsWith('http') || theme.avatar.url.indexOf('://') >= 0)){ %> <%-config.root %><% } %><%- theme.avatar.url %>">
