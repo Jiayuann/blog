@@ -7,7 +7,7 @@
   var title = page.title;
 
   if(is_home()){
-  	title = __('page', page.current) + '';
+  	title = '主页';
   } else if (is_archive()){
     title = __('archive_a');
 
@@ -19,7 +19,7 @@
   } else if (is_category()){
     title = __('category') + ': ' + page.category;
   } else if (is_tag()){
-    title = __('tag') + ': ' + page.tag;
+    title = page.tag;
   }
   %>
   <title><% if (title){ %><%= __(title) %> | <% } %><%= config.title %></title>
